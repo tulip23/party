@@ -1,0 +1,327 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*-----------字体动画------------*/
+
+.china{
+	width: 100%;
+	height: auto;
+	font-size: 7vmax;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 250px;
+	color: black;
+}
+.china{
+	animation: floatup 2s ease;
+	overflow: hidden;
+}
+@keyframes floatup{
+    from {
+    	bottom: -150px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0px;
+        opacity: 1;       
+    }
+}
+
+
+/*---------------弹出菜单------------*/
+.popview{
+	height: 100%;
+	width: 100%;
+	padding-top: 100px;
+	background-color: white;
+	z-index:2;
+	color: #FFFFFF;
+	display: none;
+}	
+.popview p{
+	margin-top: 10px;
+	padding: 1%;
+	font-size: 5vmin;
+	font-weight: 600;
+	box-sizing: border-box;
+}
+#go{
+	width: 50px;
+	height: 70px;
+	text-decoration: none;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	background: url(../img/iconlist.png) no-repeat ;
+	background-size: 100% 50%;
+	z-index: 3;
+	cursor: pointer;	
+}
+
+.popview a{
+	color: black;
+	text-decoration: none;
+}
+
+/*----------------动画效果，向上滑动-----------------*/
+.floatthree{
+	position: relative;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 4vmin;
+	font-weight: bold;
+	margin-top: 150px;
+}
+.floatthree p{
+	width: 70%;
+	margin-left: 16%;
+}
+.jancontain{
+	position: relative;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.we{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	box-sizing: border-box;
+}
+.what{
+	transform: translateY(100px);
+}
+/*---------------三个菜单---------------*/
+
+.three{
+	width: 100%;
+	height: auto;
+	background-color: yellow;
+	box-sizing: border-box;
+	padding-left: 4%;
+	position: relative;
+}
+.three p{
+	width: 85%;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;	
+	position: relative;
+	
+}
+.title{
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	margin-left: 30%;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+.first,.second,.third{
+	transform: translateY(50px);
+}
+
+.three>div{
+	padding-top: 40px;
+}
+
+.museum{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	box-sizing: border-box;
+}
+.meu{
+	transform: translateY(100px);
+}
+/*--------------四个图文-----------------*/
+
+
+.boxlist{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.row3{
+	width: 90%;
+	padding-left:10%;
+	
+}
+.f1,.f2,.f3,.f4{
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	transform: translate(0,50px);
+}
+.description{
+	width: 80%;
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+}
+.des{
+	font-size: 12px;
+	font-weight: 500;
+	color: black;
+}
+.des2{
+	font-size: 12px;
+	font-weight: 500;
+	color: darkgray;
+}
+
+.team{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	box-sizing: border-box;
+}
+.team1{
+	transform: translateY(50px);
+}
+
+/*-------------------圆形图片加文字描述------------------------------*/
+
+.boxcontain{
+	width: 100%;
+	height: auto;
+	padding-left: 7%;
+}
+.ima{
+	width: 70%;
+	height: 70%;
+	border-radius: 50%;
+}
+.ima img{
+	width: 100%;
+	height: 100%;
+}
+.rad1,.rad2,.rad3,.rad4,.rad5,.rad6,.rad7,.rad8,.rad9,.rad10{
+	transform: translateY(50px);
+}
+
+.name{
+	font-size: 1vmax;
+	font-weight: 600;
+	color: black;
+}
+.address{
+	font-size: 1vmax;
+	color: darkgray;
+}
+.work{
+	font-size: 1vmax;
+	font-weight: 500;
+	color: black;
+}
+.school{
+	font-size: 2vmin;
+	font-weight: 500;
+	color: black;
+	width: 70%;
+}
+#des{
+	margin-top: 50px;
+}
+.wanted{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 2vmax;
+	font-weight: 600;
+	margin-top: 50px;
+	margin-bottom: 50px;	
+}
+.want{
+	transform: translateY(50px);
+}
+.floatbutton{
+	width: 90%;
+	height: auto;
+	text-align: center;
+	font-size: 2vmin;
+	font-weight: 600;
+	padding-left: 25%;
+}
+.janco{
+	width: 80%;
+	height: auto;
+	text-align: center;
+}
+
+.janco{
+	transform: translateY(50px);
+}
+.bigpink{	
+	width: 100%;
+	height: 100%;
+}
+
+.pink{
+	width: 40%;
+	height: 50px;
+	background-color: #f9e1e3;
+	font-size: 4vmin;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 30%;
+	font-weight: 600;
+	margin-top: 150px;
+	margin-bottom: 200px;
+	cursor: pointer;
+}
+.pink:hover{
+	opacity: 0.3;
+	transition: .5s;
+}
+.contact{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 3vmin;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+
+.muse{
+	width: 100%;
+	height: auto;
+	text-align:center;
+	margin-bottom: 50px;
+	font-size: 4vmin;
+	font-weight: 600;
+}
+.sec{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.sec2{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	font-weight: 600;
+	cursor: pointer;
+}
+

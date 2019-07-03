@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>FB</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
+        <g id="FOTTER" transform="translate(-190.000000, -189.000000)" fill="#FFFFFF">
+            <g id="FB" transform="translate(190.000000, 189.000000)">
+                <g id="レイヤー_1">
+                    <path d="M0,0 L0,30 L30,30 L30,0 L0,0 L0,0 Z M18.608,15.007 L16.086,15.007 L16.086,24 L12.348,24 L12.348,15.007 L10.57,15.007 L10.57,11.83 L12.348,11.83 L12.348,9.773 C12.348,8.302 13.046,6 16.119,6 L18.888,6.011 L18.888,9.096 L16.878,9.096 C16.551,9.096 16.085,9.26 16.085,9.962 L16.085,11.83 L18.935,11.83 L18.608,15.007 L18.608,15.007 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

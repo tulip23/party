@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body,section{
+	width: 100%;
+	height: 100%;
+	
+}
+body{
+	overflow: hidden;
+}
+.container{
+	width: 100%;
+	height: auto;
+}
+.one{
+	color: black;
+}
+.icon-bar{
+	background-color: black;
+}
+.dd ul{
+	float: right;
+}
+.own li a{
+	position: relative;
+	text-align: center;
+}
+.own li a ::after{
+	content:'';
+	width:30px;
+	height:2px;
+	position: absolute;
+	background-color:black;
+	left:50%;
+	transform:translateX(-50%) scale(1) ;
+	transition: all 2s;	
+}
+.own li a:hover ::after{
+	transform:translateX(-50%) scale(1);
+}
+.wrap li{
+	float: left;
+}
+
+.p1{
+	animation: p1 1s ease-in;
+	overflow: hidden;
+	
+}
+@keyframes p1{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.p2{
+	animation: p2 1.2s ease-in;
+	overflow: hidden;
+}
+@keyframes p2{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.p3{
+	animation: p3 1.4s ease-in;
+	overflow: hidden;
+}
+@keyframes p3{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 2;
+    }
+}
+.p4{
+	animation: p4 1.6s ease-in;
+	overflow: hidden;
+}
+@keyframes p4{
+    from {
+        /*margin-left : 0px;*/
+        opacity: 0;
+    }
+    to {
+        /*margin-left : 0px;*/
+        opacity: 1;
+    }
+}
+.p5{
+	animation: p5 1.8s ease-in;
+	overflow: hidden;
+}
+@keyframes p5{
+    from {
+        margin-left : 0px;
+        opacity: 0;
+    }
+    to {
+        margin-left : 0px;
+        opacity: 1;
+    }
+}

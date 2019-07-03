@@ -1,0 +1,260 @@
+/*-----------------------盒子一伪类-------------------------------*/
+.pc101::after{
+	content: url(../img/work/a01logo.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+}
+.pc101::before{
+	content: "G•U•M PLAY";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+
+.pc102::after{
+	content: url(../img/work/a02logo.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+}
+.pc102::before{
+	content: "Terminal3";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+
+.pc201::after{
+	content: url(../img/work/logo.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 75px;
+	z-index: 1;
+}
+.pc201::before{
+	content: "NARITA INTERNATIONAL AIRPORT";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+
+.pc202::after{
+	content: url(../img/sunstar.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 35px;
+	z-index: 1;
+}
+.pc202::before{
+	content: "NARITA INTERNATIONAL AIRPORT";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+
+.pc301::after{
+	content: url(../img/nochista.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 35px;
+	z-index: 1;
+}
+.pc301::before{
+	content: "NARITA INTERNATIONAL";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+.pc302::after{
+	content: url(../img/etv.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 35px;
+	z-index: 1;
+}
+.pc302::before{
+	content: "NARITA AIRPORT";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+.pc401::after{
+	content: url(../img/nochista.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 35px;
+	z-index: 1;
+}
+.pc401::before{
+	content: "NARITA";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+.pc402::after{
+	content: url(../img/slack.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 35px;
+	z-index: 1;
+}
+.pc402::before{
+	content: "NARITA INTERNATIONAL AIRPORT";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+.pc501::after{
+	content: url(../img/slack.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 35px;
+	z-index: 1;
+}
+.pc501::before{
+	content: "NARITA INTERNATIONAL AIRPORT";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+.pc502::after{
+	content: url(../img/wired_logo.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 35px;
+	z-index: 1;
+}
+.pc502::before{
+	content: "NARITA INTERNATIONAL AIRPORT";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+.pc601::after{
+	content: url(../img/sunstar.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 35px;
+	z-index: 1;
+}
+.pc601::before{
+	content: "NARITA INTERNATIONAL AIRPORT";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+.pc602::after{
+	content: url(../img/sunstar.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 35px;
+	z-index: 1;
+}
+.pc602::before{
+	content: "NARITA INTERNATIONAL AIRPORT";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+.pc701::after{
+	content: url(../img/sunstar.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 35px;
+	z-index: 1;
+}
+.pc701::before{
+	content: "NARITA INTERNATIONAL AIRPORT";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+.pc702::after{
+	content: url(../img/sunstar.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 35px;
+	z-index: 1;
+}
+.pc702::before{
+	content: "NARITA INTERNATIONAL AIRPORT";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+.pc801::after{
+	content: url(../img/sunstar.svg);
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 35px;
+	z-index: 1;
+}
+.pc801::before{
+	content: "NARITA INTERNATIONAL AIRPORT";
+	color: white;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+	font-size: 20px;
+}

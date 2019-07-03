@@ -1,0 +1,487 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body,section{
+	width: 100%;
+	height: 100%;
+}
+
+.container{
+	width: 100%;
+	height: auto;
+}
+a{
+	color: black;
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+.one{
+	color: black;
+	background-color: white;
+	height: 70px;
+	z-index: 1;
+}
+.container-fluid{
+	background-color: white;
+	border-bottom: 1px solid black;
+}
+.icon-bar{
+	background-color: black;
+}
+.dd ul{
+	float: right;
+	padding: 10px 0;
+}
+.own li a{
+	position: relative;
+	text-align: center;
+}
+
+.wrap li{
+	float: left;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.own li a:hover{
+	background-color: white;
+}
+
+/*-------------伪类---------------*/
+.own li{
+	position: relative;
+}
+.own li:after{
+	content: '';
+	width: 20px;
+	height: 2px;
+	position: absolute;
+	background-color: black;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%)scale(0);
+	transition: all .5s;
+}
+.own li:hover::after{
+	transform: translateX(-50%)scale(2);
+}
+
+
+.p1{
+	animation: p1 1s ease-in;
+	overflow: hidden;
+}
+@keyframes p1{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.p2{
+	animation: p2 1.2s ease-in;
+	overflow: hidden;
+}
+@keyframes p2{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.p3{
+	animation: p3 1.4s ease-in;
+	overflow: hidden;
+}
+@keyframes p3{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 2;
+    }
+}
+.p4{
+	animation: p4 1.6s ease-in;
+	overflow: hidden;
+}
+@keyframes p4{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.p5{
+	animation: p5 1.8s ease-in;
+	overflow: hidden;
+}
+@keyframes p5{
+    from {
+        margin-left : 0px;
+        opacity: 0;
+    }
+    to {
+        margin-left : 0px;
+        opacity: 1;
+    }
+}
+
+/*----------------文字动画效果---------------*/
+.big{
+	width: 90%;
+	height: auto;
+	left: 9%;
+	padding-top: 150px;	
+	position: relative;
+	/*background-color: red;*/
+}
+.worked{
+	height: auto;
+	font-size: 5vmin;
+	color: black;
+	float: left;
+	/*background-color: yellow;*/
+}
+.secondmenu{
+	float: right;
+}
+.list{
+	width: 100%;
+	height: auto;
+	/*transform: translateX(50%);*/
+	
+}
+.list li{
+	float: left;
+	line-height: 55px;
+	margin-left: 2%;
+	font-size: 2vmin;
+	cursor: pointer;	
+}
+.list li{
+	position: relative;
+}
+.list li:after{
+	content: '';
+	width: 20px;
+	height: 0.5px;
+	position: absolute;
+	background-color: black;
+	bottom: 0px;
+	left: 50%;
+	transform: translateX(-50%)scale(0);
+	transition: all .5s;
+}
+.list li:hover::after{
+	transform: translateX(-50%)scale(3);
+}
+.bb::before{
+	content: '';
+	width: 20px;
+	height: 2px;
+	position: absolute;
+	background-color: black;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%)scale(2);
+}
+/*-------------------隐藏的黑色二级菜单栏---------------------------*/
+.blackbox{
+	margin-top: 40px;
+	width: 100%;
+	height: auto;
+	padding-left: 7%;
+	display: none;
+	z-index: 2;
+	position: absolute;
+}
+.menubox{
+	height: auto;
+	background-color: black;
+	color: white;
+}
+
+.menubox div{
+	float: left;
+	background-color: black;
+	cursor: pointer;
+}
+.u01 li{
+	padding-top: 50px;
+	margin-left: 25%;
+}
+li{
+	cursor: pointer;
+}
+
+/*-----------------隐藏的tab栏------------------*/
+#boxcontain{
+	margin-top: 100px;
+	width: 100%;
+	padding-left: 9%;
+	padding-right: 9%;
+	position: relative;	
+}
+/*-----------------------动画--------------------------*/
+#floatone .rotatesimg{
+	animation:transform-5 1.5s ease 500ms alternate none 1;	
+}
+@keyframes transform-5 { 
+	from{
+		transform:perspective(400px) rotateX(-90deg);
+	} 
+    to{
+    	transform:perspective(400px) rotateX(0deg);
+    	} 
+}
+
+.rotatesimg{
+	-webkit-animation:transform-5 1.5s ease 500ms alternate none 1;
+	animation:transform-5 1.5s ease 500ms alternate none 1;	
+}
+
+#floattwo .rotatesimg{
+	animation:transform-5 3.5s ease 500ms alternate none 1;	
+}
+@keyframes transform-5 { 
+	from{
+	transform:perspective(400px) rotateX(-90deg);
+	} 
+    to{
+    	transform:perspective(400px) rotateX(0deg);
+    } 
+}
+/*-------------------第一个盒子--------------------------*/
+.feature{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+.pic img{
+	width: 100%;
+	height: 100%;
+}
+.pic{
+	margin: 0px;
+}
+
+.current{
+	display: block;
+}
+.current>div{
+	display: block;
+}
+  
+/*#rr{
+	height: 0;
+    padding-bottom: 25%;
+    overflow: hidden;
+    }	 */
+/*-------------------第三个盒子--------------------------*/
+.lefbox,.rightbox,.midbox,.rightbbox,.lefthree,.leftwo{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+ /*在大于1200像素的屏幕里,这里的样式才生效*/ 
+@media (min-width: 1200px){
+	#rr{
+	height: 0px;
+    padding-bottom: 25%;
+    overflow: hidden;
+    }	 
+}
+@media (min-width: 992px) and (max-width: 1199px){  
+    #rr{
+	height: 0px;
+    padding-bottom: 25%;
+    overflow: hidden;
+    } 
+
+}
+.rowe01,.rowe03,.rowe12{
+	margin: 0;
+	padding: 0;
+}
+.feature,.all,.branding,.product{
+	display: none;
+}
+.entertain{
+	display: block;
+}
+.filterby{
+	float: right;
+	width: 20%;
+	height: auto;
+	border-bottom: 1px solid darkgray;
+	color: darkgray;
+	margin-right: 8%;
+	cursor: pointer;
+	display: none;
+}
+
+/*-------------------伪类------------------------*/
+.lefbox::after,.rightbbox::after,.midbox::after,.rightbox::after,.lefthree:after,.leftwo:after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: rgba(0,0,0,0.2);	
+}
+img{
+	cursor: pointer;
+	transition: all .5s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+.rowe03{
+	position: relative;
+}
+
+/*--------------hover图片---------------*/
+.lefbox:hover img,.rightbbox:hover img{
+	cursor: pointer;
+	transition: all .5s;
+	transform: scale(1.1);
+}
+.lefthree:hover img,.leftwo:hover img{
+	cursor: pointer;
+	transition: all .5s;
+	transform: scale(1.1);
+}
+.midbox:hover img,.rightbox:hover img{
+	cursor: pointer;
+	transition: all .5s;
+	transform: scale(1.1);
+}
+.lefbox:hover::after{
+	transition: .5s;
+	background: rgba(0,0,0,0.5);	
+}
+.rightbox:hover::after{
+	transition: .5s;
+	background: rgba(0,0,0,0.5);	
+}
+.midbox:hover::after{
+	transition: .5s;
+	background: rgba(0,0,0,0.5);	
+}
+.rightbbox:hover::after{
+	transition: .5s;
+	background: rgba(0,0,0,0.5);	
+}
+.lefthree:hover::after{
+	transition: .5s;
+	background: rgba(0,0,0,0.5);	
+}
+.leftwo:hover::after{
+	transition: .5s;
+	background: rgba(0,0,0,0.5);	
+}
+
+
+
+
+/*底部样式-------------
+ 
+ * 
+ * 
+ * */
+
+.bot{
+	margin-top: 100px;
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	float: left;	
+	position: relative;
+}
+
+.three{
+	width: 31%;
+	height: auto;
+	margin: 30px 0;
+	color: #FFFFFF;
+}
+#two{
+	width: 100%;
+	height: 120px;
+}
+#title{
+	width: 25%;
+	height: auto;
+	color: #fff;
+	float: left;
+	font-size: 1vmax;
+}
+#text{
+	width: 50%;
+	height: auto;
+	color: #fff;
+	float: right;
+	font-size: 1vmax;
+}
+.social{
+	width: 100%;
+	height: 80px;
+	color: #fff;
+	margin-top: 20px;
+	font-size: 1vmax;
+}
+.icons{
+	height: 50%px;
+	width: 50%;
+	float: right;
+}
+.icons img{
+	cursor: pointer;
+}
+
+#offices{
+	width: 13%;
+	height: auto;
+	color: #fff;
+	margin-top: 30px;
+	font-size: 1vmax;
+}
+#tokyo{
+	width: 13%;
+	height: auto;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 30px;
+	color: #fff;
+	font-size: 1vmax;
+	font-weight: bolder;
+}
+#kamakua{
+	width: 16%;
+	height: auto;
+	font-size: 12px;
+	font-weight: bolder;
+	margin-top: 30px;
+	color: #fff;
+	font-size: 1vmax;
+}
+#return{
+	width: 18%;
+	height: auto;
+	background-color: black;
+	color: #fff;
+	float: right;
+	font-size: 1vmax;
+	margin-top: 30px;
+	margin-right: 30px;
+	text-align: center;
+}

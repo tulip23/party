@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+#pholist{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.boxlist{
+	width: 80%;
+	/*background-color: lightgreen;*/
+	position: absolute;
+	margin:0 9%;
+	top: 0;
+}
+.col1{
+	height: auto;
+}
+.col1:hover{
+	cursor: pointer;
+}
+.row .pic{
+	text-align: center;
+	padding: 30px auto;
+}
+.row img{
+	width: 100%;
+	height: 100%;
+}
+.col1 h4{
+	font-size: 2vmax;
+}
+.description{
+	width: 80%;
+	margin: 20px 0px;
+	color: #333333;
+	font-size: 1vmax;
+}
